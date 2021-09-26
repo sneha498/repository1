@@ -14,7 +14,7 @@ public class Cardpage {
 	@FindBy (xpath="//button[@id='continue-shopping']")
 	private WebElement continueShoppingButton;
 	
-	@FindBy(xpath="//button[@id='checkout']")
+	@FindBy(xpath="//button[@id='checkout1']")
 	private WebElement checkout;
 	
 		public void verifycontinuebutton(WebDriver driver) throws InterruptedException
